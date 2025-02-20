@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  labaratory5:
+    image: labaratory5
+    build:
+      context: .
+      dockerfile: ./Dockerfile
